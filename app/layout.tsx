@@ -7,8 +7,13 @@ const archivo  = Archivo({ subsets: ['latin'], weight: ['400', '500'], variable:
 const plex     = IBM_Plex_Mono({ subsets: ['latin'], weight: ['400', '500'], variable: '--font-plex', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: 'Cadran — Mechanical watches, made one at a time',
-  description: 'Maison Cadran — independent watchmaking in Geneva. Four years to make one watch.',
+  title: 'Cadran Ghana | Luxury Mechanical Watches',
+  description: 'Discover Cadran Ghana: high-end mechanical watches, curated collector catalog, and private ordering from Accra.',
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
