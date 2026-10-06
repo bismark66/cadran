@@ -21,10 +21,10 @@ export default function Hero({ phase, heroWrapRef, ghostRef, watch3dRef }: Props
   return (
     <div className="hero-wrap" ref={heroWrapRef}>
       <section className="hero">
-        <div className="ghost" ref={ghostRef} aria-hidden="true">CADRAN</div>
+        <div className="ghost" ref={ghostRef} aria-hidden="true">AFFORDABLE WATCHES</div>
         <p className="watch-tag" aria-hidden="true">Cal. C-232 · 41 mm — drag the watch to inspect</p>
 
-        <p className={'eyebrow' + fade}>Cadran Ghana — Accra · Est. 2016</p>
+        <p className={'eyebrow' + fade}>Affordable Watches Ghana — Accra · Est. 2016</p>
 
         <h1 aria-label="Crafted in Accra for collectors worldwide.">
           <span className="mask" aria-hidden="true">
@@ -61,7 +61,7 @@ export default function Hero({ phase, heroWrapRef, ghostRef, watch3dRef }: Props
 
         <div className="hero-foot">
           <p className={'hero-sub' + fade} style={{ transitionDelay: '.65s' }}>
-            Cadran builds mechanical watches in Accra with Swiss-tested tolerances, tropical-wear durability,
+            Affordable Watches builds mechanical timepieces in Accra with Swiss-tested tolerances, tropical-wear durability,
             and finishing meant to be seen up close in high resolution.
           </p>
           <div className={'hero-links' + fade} style={{ transitionDelay: '.75s' }}>

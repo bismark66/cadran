@@ -4,7 +4,7 @@ import { Fragment } from 'react'
 import type { RefObject } from 'react'
 import { useEnquiry } from './EnquiryProvider'
 
-const RAW = 'A Cadran is built for Ghana’s next generation of collectors: humid mornings, boardroom afternoons, long nights in Accra. Each watch is assembled *once* — case, calibre, dial — then regulated for daily wear with no compromise. That is our *standard.*'
+const RAW = 'Affordable Watches is built for Ghana’s next generation of collectors: humid mornings, boardroom afternoons, long nights in Accra. Each watch is assembled *once* — case, calibre, dial — then regulated for daily wear with no compromise. That is our *standard.*'
 const WORDS = RAW.split(/\s+/).map((t) => ({ t: t.replace(/\*/g, ''), acc: t.includes('*') }))
 
 export default function Manifesto({ textRef }: { textRef: RefObject<HTMLParagraphElement | null> }) {

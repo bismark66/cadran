@@ -7,7 +7,7 @@ export default function Nav({ navRef }: { navRef: RefObject<HTMLElement | null> 
   const { open } = useEnquiry()
   return (
     <nav className="nav" ref={navRef}>
-      <a className="brand" href="#top">CADRAN</a>
+      <a className="brand" href="#top">AFFORDABLE WATCHES</a>
       <div className="nav-links">
         <a href="#maison">Maison</a>
         <a href="#collector">Collector desk</a>

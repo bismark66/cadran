@@ -21,8 +21,8 @@ export default function TwitterImage() {
           fontFamily: 'Georgia, serif',
         }}
       >
-        <div style={{ display: 'flex', fontSize: 26, letterSpacing: 7, textTransform: 'uppercase', opacity: 0.86 }}>
-          Cadran Ghana
+        <div style={{ display: 'flex', fontSize: 22, letterSpacing: 5, textTransform: 'uppercase', opacity: 0.86 }}>
+          Affordable Watches Ghana
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 18, maxWidth: 860 }}>
           <div style={{ fontSize: 74, lineHeight: 1.05 }}>Luxury Mechanical Watches</div>

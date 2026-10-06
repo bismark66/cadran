@@ -21,8 +21,8 @@ export default function OpenGraphImage() {
           fontFamily: 'Georgia, serif',
         }}
       >
-        <div style={{ display: 'flex', fontSize: 28, letterSpacing: 8, textTransform: 'uppercase', opacity: 0.86 }}>
-          CADRAN GHANA
+        <div style={{ display: 'flex', fontSize: 24, letterSpacing: 6, textTransform: 'uppercase', opacity: 0.86 }}>
+          AFFORDABLE WATCHES GHANA
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 22, maxWidth: 880 }}>
           <div style={{ fontSize: 88, lineHeight: 1.02 }}>Luxury Mechanical Watches</div>

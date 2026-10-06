@@ -1,4 +1,4 @@
-# Cadran — Maison Cadran, Genève
+# Affordable Watches — Accra, Ghana
 
 Fictional independent watchmaker. Pinned scroll-driven hero, live SVG watches,
 curtain manifesto, horizontal collection. Next.js App Router, no other deps.

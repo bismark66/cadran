@@ -60,7 +60,7 @@ export default function Collection({
                 <div className="panel-copy">
                   <p className="panel-tagline">Accra atelier release</p>
                   <h3>
-                    Cadran <em>{m.name}</em>
+                    Affordable Watches <em>{m.name}</em>
                   </h3>
                   <p className="panel-desc">{m.blurb}</p>
                   <ul className="specs">

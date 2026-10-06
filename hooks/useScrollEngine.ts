@@ -41,7 +41,7 @@ export function useScrollEngine(
 
     if (!rootEl || !heroWrapEl || !ghostEl || !watch3dEl) {
       if (process.env.NODE_ENV !== 'production') {
-        console.warn(`[Cadran] scroll engine disabled — refs not attached: ${missing.join(', ')}`)
+        console.warn(`[Affordable Watches] scroll engine disabled — refs not attached: ${missing.join(', ')}`)
       }
       return
     }
@@ -49,7 +49,7 @@ export function useScrollEngine(
     const heroWatch = $('.hero-watch', rootEl)
     if (!heroWatch) {
       if (process.env.NODE_ENV !== 'production') {
-        console.warn(`[Cadran] scroll engine disabled — refs not attached: heroWatch (selector .hero-watch)`)
+        console.warn(`[Affordable Watches] scroll engine disabled — refs not attached: heroWatch (selector .hero-watch)`)
       }
       return
     }

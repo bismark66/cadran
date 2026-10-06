@@ -47,7 +47,7 @@ export default function CollectorShowcase() {
         </h2>
         <p className="collector-note">
           A curated board inspired by classic horology references shared by collectors in Accra, Kumasi, and
-          London. Cadran can source comparable pieces and advise on provenance before you order.
+          London. Affordable Watches can source comparable pieces and advise on provenance before you order.
         </p>
       </header>
 

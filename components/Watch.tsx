@@ -60,7 +60,7 @@ export default function Watch({ variant }: { variant: WatchVariant }) {
 
   return (
     <svg className="watch-svg" viewBox="0 0 360 560" role="img"
-         aria-label="Cadran wristwatch showing the current time">
+         aria-label="Affordable Watches wristwatch showing the current time">
       <defs>
         <linearGradient id={`m${uid}`} x1="40" y1="120" x2="320" y2="440" gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="#57503c" /><stop offset="0.5" stopColor="#211d14" /><stop offset="1" stopColor="#4b4432" />
@@ -103,7 +103,7 @@ export default function Watch({ variant }: { variant: WatchVariant }) {
       <g transform="translate(180 280)" fill={v.index}>{bats}</g>
 
       {/* dial text */}
-      <text x="181" y="224" textAnchor="middle" fontSize="14.5" letterSpacing="5" fill={v.text} style={SERIF}>CADRAN</text>
+      <text x="181" y="224" textAnchor="middle" fontSize="8.2" letterSpacing="2" fill={v.text} style={SERIF}>AFFORDABLE WATCHES</text>
       <text x="180.5" y="241" textAnchor="middle" fontSize="6.4" letterSpacing="3.2" fill={v.text} opacity=".72" style={MONO}>AUTOMATIQUE</text>
       <text x="180.5" y="352" textAnchor="middle" fontSize="6.4" letterSpacing="2.6" fill={v.text} opacity=".5" style={MONO}>GENEVE · 72H</text>
 
